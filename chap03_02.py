@@ -82,11 +82,11 @@ print()
 
 str_s1 = "Nice Python"
 print(len(str_s1))
-print(str_s1[0:3]) #0부터 3개만 나와라
+print(str_s1[0:3]) #0부터 3까지만 나와라
 print(str_s1[5:]) #[5:11]
 print(str_s1[:len(str_s1)]) # str_s1[:11]
 print(str_s1[:len(str_s1)-1]) #str_s1[:10]
-print(str_s1[0:8:2]) #0부터 8개인데 2칸씩 건너뛰어라
+print(str_s1[0:8:2]) #0부터 8인데 2칸씩 건너뛰어라
 print(str_s1[-5:]) #음수
 print(str_s1[1:-2])
 print(str_s1[::2])
